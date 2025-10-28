@@ -1,4 +1,4 @@
-# UGD
+# RAPO
 
 
 [UGD](...) is a simple offline reinforcement learning plugin algorithm. It generates data in the data sparse area through the uncertainty guided diffusion model to expand the data range of the offline data set. The effect of the algorithm has been verified on multiple algorithms and datasets.
