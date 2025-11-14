@@ -1,9 +1,8 @@
 # RAPO
 
+RAPO is a model-based reinforcement learning algorithm designed for offline scenarios. This algorithm models state transitions as Gaussian distributions and uses ensemble models to predict the uncertainty of outcomes. Unlike previous algorithms, we innovatively introduce the concept of long-term risk: we fit the uncertainty into the long-term risk of each action, termed as riskQ, through the Bellman equation. Unlike the Q-function, the agent should prefer actions with smaller riskQ. We incorporate this element into the original SAC framework, enabling SAC to consider the risks inherent in offline scenarios during policy updates. Moreover, in the paper, we also demonstrate that this algorithm has an excellent lower bound on performance. For specific implementations and theoretical proofs, please refer to the original paper.
 
-[UGD](...) is a simple offline reinforcement learning plugin algorithm. It generates data in the data sparse area through the uncertainty guided diffusion model to expand the data range of the offline data set. The effect of the algorithm has been verified on multiple algorithms and datasets.
 
-Here is presented the [UGD framework implemented based on the CQL algorithm](...).
 
 ## Installation
 
